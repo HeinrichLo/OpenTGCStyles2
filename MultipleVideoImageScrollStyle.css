@@ -1,0 +1,38 @@
+.canvasContainer {
+  max-height: 1000px;
+  overflow-y: auto;
+  padding-right: 1em;
+}
+
+.canvasContainer video {
+  max-width: 100%;
+}
+
+.stickyContainer {
+  height: 800px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  max-height: 80%;
+}
+
+.textScrollBox {
+  border-style: solid;
+  border-color: #f999e6;
+  max-height: 300px;
+  padding-right: 1em;
+  overflow-y: auto;
+}
+
+.includeSticky {
+  position: sticky;
+  top: 0px;
+}
+
+.bufferSpace {
+  min-height: 40px;
+  max-height: 100px;
+}
