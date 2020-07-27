@@ -1,0 +1,41 @@
+.senderStyle > mark {
+  background-color: #92278f;
+  color: #efedef;
+}
+
+.receiverStyle {
+  text-align: right;
+}
+
+.receiverStyle > mark {
+  background-color: #00c500;
+  color: #efedef;
+}
+
+.scrollBoxPhone {
+  max-height: 700px;
+  padding-right: 1em;
+  overflow-y: auto;
+}
+
+.scrollBoxPhone img {
+  max-height: 20em;
+}
+
+.maxStretch {
+  max-width: 100%;
+}
+
+.extraMargin {
+  height: 10em;
+}
+
+@media (min-width: 57em) {
+  .scrollBoxPhone img {
+    max-height: 30em;
+  }
+
+  .maxStretch {
+    width: 1000px;
+  }
+}
