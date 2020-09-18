@@ -1,4 +1,4 @@
-.canvasContainerSingleVideo {
+.canvasContainerSingleVideoVertical {
   max-height: 1000px;
   width: 100%;
   overflow-y: auto;
@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: column;
 }
-.canvasContainerSingleVideo video {
+.canvasContainerSingleVideoVertical video {
   max-width: 100%;
   max-height: 700px;
 }
-.textScrollBoxSingleVideo {
+.textScrollBoxSingleVideoVertical {
   border-style: solid;
   border-color: #f999e6;
   max-height: 300px;
@@ -23,15 +23,15 @@
 }
 
 @media (min-width: 57em) {
-  .canvasContainerSingleVideo {
+  .canvasContainerSingleVideoVertical {
     flex-direction: row;
   }
-  .canvasContainerSingleVideo video {
+  .canvasContainerSingleVideoVertical video {
     margin: auto;
     max-width: 30em;
     flex: none;
   }
-  .textScrollBoxSingleVideo {
+  .textScrollBoxSingleVideoVertical {
     max-height: 800px;
   }
 }
