@@ -27,11 +27,17 @@
     flex-direction: row;
   }
   .canvasContainerSingleVideoVertical video {
-    margin: auto;
     max-width: 30em;
     flex: none;
+    position: sticky;
+    top: 1em;
   }
   .textScrollBoxSingleVideoVertical {
     max-height: 800px;
+    margin-left: 1em;
+    padding-left: 1em;
+    overflow-y: visible;
+    border-style: hidden;
+    padding-right: unset;
   }
 }
