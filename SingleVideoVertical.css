@@ -1,0 +1,37 @@
+.canvasContainerSingleVideo {
+  max-height: 1000px;
+  width: 100%;
+  overflow-y: auto;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.canvasContainerSingleVideo video {
+  max-width: 100%;
+  max-height: 700px;
+}
+.textScrollBoxSingleVideo {
+  border-style: solid;
+  border-color: #f999e6;
+  max-height: 300px;
+  padding-right: 1em;
+  overflow-y: auto;
+}
+.bufferSpace {
+  min-height: 40px;
+  max-height: 100px;
+}
+
+@media (min-width: 57em) {
+  .canvasContainerSingleVideo {
+    flex-direction: row;
+  }
+  .canvasContainerSingleVideo video {
+    margin: auto;
+    max-width: 30em;
+    flex: none;
+  }
+  .textScrollBoxSingleVideo {
+    max-height: 800px;
+  }
+}
